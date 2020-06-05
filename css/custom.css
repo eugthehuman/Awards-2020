@@ -127,19 +127,21 @@ div.nav a {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400;
+  text-align: center;
 }
 
 h1, .h1 {
   font-family: riot squad nf; 
   font-size: 2.5rem;
   font-weight: 300;
-  text-align: center;
   color: #8c6e4a;
 }
 
 h2, .h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
+  font-family: riot squad nf; 
+  font-size: 2rem;
+  font-weight: 300;
+  color: #8c6e4a;
 }
 
 h3, .h3 {
@@ -204,17 +206,10 @@ a {
 .carousel-inner > .carousel-item > picture { 
 	text-align: center;
 }
-
-.carousel-caption-article p {
-	color: #6c757d;
-}
-
-.carousel-caption-article-long p {
-	color: #6c757d;
-}
 	
-article p {
-	font-size: .9rem;
+p {
+	font-size: 1rem;
+	text-align: center;
 }
 
 #footer {
