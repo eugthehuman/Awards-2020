@@ -255,6 +255,10 @@ p {
 	.dropdown-menu {
 	  text-align: center;
 	}
+	
+	.subcategories {
+	  text-align: center;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -265,6 +269,10 @@ p {
 	  text-align: center;
 	  left: 50%;
 	  transform: translateX(-50%);
+	}
+	
+	.subcategories {
+	  text-align: left;
 	}
 }
 
