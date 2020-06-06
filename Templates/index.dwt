@@ -93,16 +93,15 @@
 					<a href="https://instagram.com/wkwsci.weevo/" class="fab fa-instagram"></a>&nbsp;
 				</div>
 				<div class="col-md-5 col-xl-6 d-none d-md-block" id="footernav">
-				  <h4 style="text-align: left; font-weight: 700; color: #ffffff">About Us</h4>
-					<a style="color: #ffffff" href="../about-us.html">Who We Are</a>
-					<br><a style="color: #ffffff" href="../about-us.html#partners">Our Partners</a>
-					<br><a style="color: #ffffff" href="../about-us.html#team">Our Team</a>
+				  <a class="footer" style="font-weight: 700; color: #ffffff" href="../index.html#intro">Spotlight 2020</a>
 				  <hr style="border-color: #ffffff">
-				  <h4 style="text-align: left; font-weight: 700; color: #ffffff">Programmes</h4>
-					<a style="color: #ffffff" href="../programmes/weereach.html">WeeReach</a>
-					<br><a style="color: #ffffff" href="../programmes/weetrip.html">WeeTrip</a>
+				  <a class="footer" style="font-weight: 700; color: #ffffff" href="../awards.html">Awards</a>
 				  <hr style="border-color: #ffffff">
-				  <a style="font-weight: 700; color: #ffffff" id="footer" href="../stories.html">Stories</a>
+				  <a class="footer" style="font-weight: 700; color: #ffffff" href="../vote.html">Vote</a>
+				  <hr style="border-color: #ffffff">
+				  <a class="footer" style="font-weight: 700; color: #ffffff" href="../history.html">History</a>
+				  <hr style="border-color: #ffffff">
+				  <a class="footer" style="font-weight: 700; color: #ffffff" href="../faq.html">FAQ</a>
 				</div>
 			  </div>
 			</div>

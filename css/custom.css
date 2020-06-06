@@ -159,10 +159,6 @@ h5, .h5 {
   font-weight: 700;
 }
 
-a {
-  color: #1e4b61;
-}
-
 .btn-primary {
   background-color: #1e4b61;
   border-color: #1e4b61;
@@ -212,7 +208,7 @@ p {
 	text-align: center;
 }
 
-#footer {
+.footer {
   font-size: 1.25rem;
 }
 
