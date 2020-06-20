@@ -124,6 +124,24 @@ div.nav a {
   border-bottom: 3px solid #181c62;
 }
 
+.caps {
+  text-transform: uppercase;
+}
+
+.header-gradient {
+  background: radial-gradient(#181c62, #0e1449);
+}
+
+.text-gradient {
+  background-position: center;
+  background-color: #8c6e4a;
+  background-image: linear-gradient(90deg, #8c6e4a, #8c6e4a, #8c6e4a, #b89142, #e5c595, #f9e3bb, #e5c595, #b89142, #8c6e4a, #8c6e4a, #8c6e4a);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;  
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400;
@@ -135,6 +153,7 @@ h1, .h1 {
   font-size: 2.5rem;
   font-weight: 300;
   color: #8c6e4a;
+  text-transform: uppercase;
 }
 
 h2, .h2 {
@@ -142,6 +161,7 @@ h2, .h2 {
   font-size: 2rem;
   font-weight: 300;
   color: #8c6e4a;
+  text-transform: uppercase;
 }
 
 h3, .h3 {
