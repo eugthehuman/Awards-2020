@@ -218,10 +218,6 @@ h5, .h5 {
 	width: 100%;
 	height: 100%;
 }
-
-.carousel-inner > .carousel-item > picture { 
-	text-align: center;
-}
 	
 p {
 	font-size: 1rem;
@@ -271,6 +267,24 @@ p {
 	margin: -6% 0% -3% -6.5%;
 }
 
+ul.images {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+ul.images li {
+  display: inline;
+}
+
+.images {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 @media screen and (min-width: 0px) {
 	.dropdown-menu {
 	  text-align: center;
@@ -279,6 +293,15 @@ p {
 	.subcategories {
 	  text-align: center;
 	}
+	
+	ul.images {
+	  height: 240px;
+	}
+	
+	ul.images li img {
+	  height: 240px;
+	}
+	
 }
 
 @media screen and (min-width: 768px) {
@@ -294,6 +317,15 @@ p {
 	.subcategories {
 	  text-align: left;
 	}
+	
+	ul.images {
+	  height: 360px;
+	}
+	
+	ul.images li img {
+	  height: 360px;
+	}
+	
 }
 
 @media screen and (min-width: 1200px) {
