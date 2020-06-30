@@ -186,8 +186,8 @@ figcaption {
 }
 
 .btn-primary {
-  background-color: #1e4b61;
-  border-color: #1e4b61;
+  background-color: rgba(24,28,98);
+  border-color: rgba(24,28,98);
 }
 
 .btn-primary:hover {
