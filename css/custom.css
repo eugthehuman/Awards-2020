@@ -179,6 +179,12 @@ h5, .h5 {
   font-weight: 700;
 }
 
+figcaption {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #696969;
+}
+
 .btn-primary {
   background-color: #1e4b61;
   border-color: #1e4b61;
